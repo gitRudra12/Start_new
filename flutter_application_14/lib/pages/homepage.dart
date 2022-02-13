@@ -10,6 +10,7 @@ class home_page extends StatelessWidget {
       body: Center(
         child: Text("this is home page"),
       ),
+      drawer: Drawer(),
     );
   }
 }
