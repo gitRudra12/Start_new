@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_14/pages/homepage.dart';
+import 'package:flutter_application_14/utilis/MyRoutes.dart';
 
 class login_page extends StatelessWidget {
   const login_page({Key? key}) : super(key: key);
@@ -34,7 +35,7 @@ class login_page extends StatelessWidget {
                     child: Text("login"),
                     style: TextButton.styleFrom(minimumSize: Size(100, 40)),
                     onPressed: () {
-                      Navigator.pushNamed(context, "/home");
+                      Navigator.pushNamed(context, MyRoute.homeRoute);
                     },
                   )
                 ],
